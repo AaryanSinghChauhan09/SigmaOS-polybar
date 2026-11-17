@@ -3,12 +3,12 @@ name = "SigmaOS-polybar"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "polybar component"
+description = "Polybar component for SigmaOS inspired by Arch Linux"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-desktop", "SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
